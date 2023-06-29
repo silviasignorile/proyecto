@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo);
+@media screen and (max-with: 320px){
+    header { display:block }
+} 
+body {
+    /* para la selección de fuente pongo dos opciones separadas por coma, si la primera no carga, usa la segunda.*/
+    font: normal 16px 'Glegoo', serif; 
+    font-weight: lighter;
+    color: blue;
+    overflow-x: hidden;
+}
+/* Menú*/
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color:#3f3f3f ;
+}
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
